@@ -1,0 +1,265 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    background-color: #f2f2f2;
+}
+/* header */
+header{
+    background-image: url(2.jpg);
+    color: #FFF;
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.h1header{
+    margin: 30px 50px;
+    float: left;
+    font-weight: 700;
+    font-size: 40px;
+}
+.navheader{
+    float: right;
+}
+.navheader ul{
+    list-style-type: none;
+    margin: 25px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+.navheader li{
+    float: left;
+    margin: 12px;
+    padding: 7px 0px;
+}
+.navheader a{
+    text-decoration: none;
+    color: #FFF;
+    letter-spacing: 1px;
+    padding: 7px 12px;
+}
+.navheader a:hover{
+    padding: 7px 12px;
+    background-color: #FFF;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.5s;
+}
+.headercontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.headercontent a{
+    text-decoration: none;
+    color: #FFF;
+    border: solid #FFF 2px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 40px;
+    display: inline-block;
+    opacity: 80%;
+}
+.headercontent a:hover{
+    opacity: 100%;
+}
+.label{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.label label{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0px 5px;
+    padding: 5px;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+/* section 2 */
+.sec2h1{
+    text-align: center;
+    font-size: 40px;
+    color: #404040;
+    margin: 100px 0 80px 0;
+}
+.intro{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+.intro .col{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.intro .col .box{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.intro .col .left{
+    border-radius: 50%;
+    margin: auto;
+}
+.intro .col p{
+    color: #666;
+    line-height: 30px;
+    padding: 10px;
+}
+.intro .right{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+/* section 3 */
+/* part1 */
+.sec3part1{
+    background-image: url(bg.jpg);
+    color: #FFF;
+    background-size: cover;
+    height: 600px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.sec3part1 h1{
+    font-size: 40px;
+    margin: 90px 0px;
+    text-align: center;
+}
+.sec3part1 .row{
+    width: 80%;
+    margin: auto;
+}
+.sec3part1 .row .col{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+.sec3part1 .row .col p{
+    text-align: center;
+    line-height: 40px;
+}
+.sec3part1 .row .col img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+.sec3part1 .row .col .sign{
+    color: #FF9902;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* part2 */
+.sec3part2 h1{
+    font-size: 40px;
+    margin: 90px 0px;
+    text-align: center;
+    color: #404040;
+}
+.trainers{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+.trainers .trainer{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.trainers img{
+    width: 80%;
+}
+.trainers h2{
+    font-size: 25px;
+}
+.trainers ul{
+    padding: 0px;
+}
+.trainers li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+.trainers a{
+    padding: 5px;
+}
+.trainers i{
+    color: #FFF;
+}
+/* section 4 */
+.sec4bg{
+    background-color: #17181B;
+}
+.sec4{
+    background-color: #17181B;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.ref{
+    float:left;
+    width: 25%;
+}
+.ref h1{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ref h2{
+    color: #FFF;
+    font-size: 15px;
+}
+.ref p{
+    color: #666;
+    line-height: 30px;
+}
+.ref input{
+    height: 40px;
+    width: 230px;
+    border-radius: 0px;
+    border: 0;
+}
+.ref button{
+    background-color: #FF9902;
+    color: #666;
+    height: 42px;
+    width: 75px;
+    border: 0;
+    cursor: pointer;
+}
+.ref ul{
+    padding: 0px;
+}
+.ref li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+.ref a{
+    padding: 5px;
+}
+.ref i{
+    color: #FFF;
+}
+/* footer */
+footer{
+    background-color: #1C1D21;
+    color: #666;
+    margin: 0px;
+    text-align: center;
+    padding: 15px;
+}
+footer p{
+    margin: 0;
+}

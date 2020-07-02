@@ -1,0 +1,365 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    background-color: #f2f2f2;
+}
+/* header */
+header{
+    background-image: url("1.jpg");
+    color: #FFF;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+}
+.h1header{
+    margin: 30px 50px;
+    float: left;
+    font-weight: 700;
+    font-size: 40px;
+}
+.navheader{
+    float: right;
+}
+.navheader ul{
+    list-style-type: none;
+    margin: 25px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+.navheader li{
+    float: left;
+    margin: 12px;
+    padding: 7px 0px;
+}
+.navheader a{
+    text-decoration: none;
+    color: #FFF;
+    letter-spacing: 1px;
+    padding: 7px 12px;
+}
+.navheader a:hover{
+    padding: 7px 12px;
+    background-color: #FFF;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.5s;
+}
+.headercontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.headercontent a{
+    text-decoration: none;
+    color: #FFF;
+    border: solid #FFF 2px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 40px;
+    display: inline-block;
+    opacity: 80%;
+}
+.headercontent a:hover{
+    opacity: 100%;
+}
+.label{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.label label{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0px 5px;
+    padding: 5px;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+/* section 1 */
+/* part1 */
+.sec1part1{
+    text-align: center;
+}
+.sec1part1 h1{
+    font-size: 40px;
+    margin: 80px 0px 30px 0px;
+    color: #404040;
+}
+.sec1part1 p{
+    margin: 50px 170px;
+    line-height: 34px;
+    color: #666;
+}
+.sec1part1 img{
+    margin: auto;
+    width: 90%;
+}
+/* part2 */
+.sec1part2{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.sec1part2 h1{
+    font-size: 40px;
+    text-align: center;
+    color: #404040;
+}
+.sec1part2 .sec1col{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.sec1part2 img{
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 35px 5px rgb(197, 197, 197);
+    margin-top: 50px;
+}
+.sec1part2 p{
+    margin: 0px 35px;
+    color: #666;
+    line-height: 30px;
+}
+/* section 2 */
+/* part1 */
+.sec2part1{
+    background-image: url(bg.jpg);
+    overflow: hidden;
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;
+}
+.sec2part1 h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.sec2part1 .statistic{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+.sec2part1 .col{
+    float: left;
+    width: 25%;
+    color: #FFF;
+    text-align: center;
+}
+.sec2part1 h1{
+    text-align: center;
+    color: #FFF;
+    font-size: 60px;
+}
+/* part2 */
+.sec2part2{
+    overflow: hidden;
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+}
+.sec2part2 .container{
+    float: left;
+}
+.text{
+    width: 30%;
+}
+.text h1{
+    font-size: 40px;
+    color: #404040;
+}
+.text .p1{
+    font-size: 20px;
+    color: #666;
+    line-height: 40px;
+}
+.text .p2{
+    color: #666;
+    line-height: 30px;
+}
+.boxes{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.boxes .box{
+    width: 32%;
+    box-shadow: 0px 0px 35px 5px rgb(236, 236, 236);
+    margin: 40px;
+    padding: 20px 40px;
+    background-color: #FFF;
+}
+.boxes i{
+    color: #FF9902;
+    font-size: 50px;
+}
+.boxes h1{
+    font-size: 25px;
+}
+.boxes p{
+    color: #666;
+    line-height: 30px;
+}
+/* section 3 */
+/* part1 */
+.sec3part1{
+    background-image: url(bg.jpg);
+    color: #FFF;
+    background-size: cover;
+    height: 600px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.sec3part1 h1{
+    font-size: 40px;
+    margin: 90px 0px;
+    text-align: center;
+}
+.sec3part1 .row{
+    width: 90%;
+    margin: auto;
+}
+.sec3part1 .row .col{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+.sec3part1 .row .col p{
+    text-align: center;
+    line-height: 40px;
+}
+.sec3part1 .row .col img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+.sec3part1 .row .col .sign{
+    color: #FF9902;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* part2 */
+.sec3part2{
+    margin-top: 100px;
+    margin: auto;
+    width: 90%;
+}
+.sec3part2 h1{
+    color: #404040;
+    text-align: center;
+    font-size: 40px;
+}
+.sec3part2 .flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.flex .box{
+    width: 30%;
+    border: solid #ccc 1px;
+}
+.flex .box h2{
+    padding: 30px 10px 20px 10px;
+    margin:0;
+}
+.flex .box img{
+    width: 100%;
+}
+.flex .box .boxp{
+    color: #666;
+    line-height: 40px;
+    padding: 10px;
+    margin: 0;
+}
+.flex .box a{
+    text-decoration: none;
+    color: #FF9902;
+}
+.flex .desc{
+    padding: 10px;
+}
+.flex .desc a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #404040;
+    line-height: 40px;
+}
+/* section 4 */
+.sec4bg{
+    background-color: #17181B;
+}
+.sec4{
+    background-color: #17181B;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.ref{
+    float:left;
+    width: 25%;
+}
+.ref h1{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ref h2{
+    color: #FFF;
+    font-size: 15px;
+}
+.ref p{
+    color: #666;
+    line-height: 30px;
+}
+.ref input{
+    height: 40px;
+    width: 230px;
+    border-radius: 0px;
+    border: 0;
+}
+.ref button{
+    background-color: #FF9902;
+    color: #666;
+    height: 42px;
+    width: 75px;
+    border: 0;
+    cursor: pointer;
+}
+.ref ul{
+    padding: 0px;
+}
+.ref li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+.ref a{
+    padding: 5px;
+}
+.ref i{
+    color: #FFF;
+}
+/* footer */
+footer{
+    background-color: #1C1D21;
+    color: #666;
+    margin: 0px;
+    text-align: center;
+    padding: 15px;
+}
+footer p{
+    margin: 0;
+}
